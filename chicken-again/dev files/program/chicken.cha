@@ -1,0 +1,355 @@
+# Chicken CTF challenge
+# I used math operations to make the ASCII values and
+# concatenated the characters at different times to make
+# it so they wouldn't be obvious from just counting the
+# number of occurences of "chicken" in a line.
+
+# B (66)
+push 6
+push 11
+multiply
+char
+
+# Y (89)
+push 9
+push 9
+multiply
+push 8
+add
+char
+
+# U (85)
+push 8
+push 10
+multiply
+push 5
+add
+char
+
+# C (67)
+push 1
+push 6
+push 11
+multiply
+add
+char
+
+# T (84)
+push 8
+push 10
+multiply
+push 4
+add
+char
+
+# F (70)
+push 7
+push 10
+multiply
+char
+
+# { (123)
+push 12
+push 11
+multiply
+push 9
+subtract
+char
+
+# I (73)
+push 13
+push 3
+push 20
+multiply
+add
+char
+
+# T (84)
+push 7
+push 12
+multiply
+char
+
+# S (83)
+push 10
+push 8
+multiply
+push 3
+add
+char
+
+# _ (95)
+push 19
+push 5
+multiply
+char
+
+# A (65)
+push 15
+push 5
+multiply
+push 10
+subtract
+char
+
+# L (76)
+push 11
+push 7
+multiply
+push 1
+subtract
+char
+
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+add
+
+# L (76)
+push 8
+push 10
+multiply
+push 4
+subtract
+char
+
+# _ (95)
+push 10
+push 10
+multiply
+push 5
+subtract
+char
+
+# C (67)
+push 13
+push 7
+multiply
+push 24
+subtract
+char
+
+add
+add
+add
+
+# H (72)
+push 12
+push 6
+multiply
+char
+
+# I (73)
+push 12
+push 6
+multiply
+push 1
+add
+char
+
+# C (67)
+push 11
+push 6
+multiply
+push 1
+add
+char
+
+# K (75)
+push 80
+push 5
+subtract
+char
+
+# E (69)
+push 13
+push 5
+multiply
+push 4
+add
+char
+
+add
+add
+add
+add
+add
+
+# N (78)
+push 5
+push 14
+multiply
+push 8
+add
+char
+
+# S (83)
+push 12
+push 7
+multiply
+push 1
+subtract
+char
+
+# ? (63)
+push 9
+push 7
+multiply
+char
+
+add
+add
+add
+
+# _ (95)
+push 10
+push 10
+multiply
+push 5
+subtract
+char
+
+# A (65)
+push 20
+push 4
+multiply
+push 15
+subtract
+char
+
+# L (76)
+push 19
+push 4
+multiply
+char
+
+# W (87)
+push 13
+push 10
+multiply
+push 43
+subtract
+char
+
+# A (65)
+push 65
+char
+
+# Y (89)
+push 1
+push 2
+push 4
+push 11
+multiply
+multiply
+add
+char
+
+# S (83)
+push 11
+push 8
+multiply
+push 5
+subtract
+char
+
+add
+add
+add
+add
+add
+add
+add
+
+# _ (95)
+push 5
+push 9
+push 10
+multiply
+add
+char
+
+# H (72)
+push 80
+push 8
+subtract
+char
+
+# A (65)
+push 5
+push 13
+multiply
+char
+
+# S (83)
+push 12
+push 7
+multiply
+push 1
+subtract
+char
+
+# _ (95)
+push 95
+char
+
+# B (66)
+push 30
+push 36
+add
+char
+
+add
+add
+add
+add
+add
+add
+
+# E (69)
+push 4
+push 5
+push 13
+multiply
+add
+char
+
+# E (69)
+push 20
+push 3
+multiply
+push 9
+add
+char
+
+add
+add
+
+# N (78)
+push 1
+push 7
+push 11
+multiply
+add
+char
+
+# } (125)
+push 10
+push 23
+push 5
+multiply
+add
+char
+
+add
+add
+
+exit
