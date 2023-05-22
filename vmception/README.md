@@ -5,7 +5,7 @@ Description:
 ```markdown
 A flag is hidden deep inside this vm. Log in with `cosmo:password` to get started.
 
-https://byu.box.com/shared/static/v7cenexpa21rbszuslgch0jmiu2bxl96.vdi
+https://byu.box.com/shared/static/y73dexzq53bajeqant0ypk16ifinu1m1.vdi
 ```
 
 ## Writeup
