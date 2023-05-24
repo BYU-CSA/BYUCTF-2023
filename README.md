@@ -1,5 +1,5 @@
 # BYUCTF 2023
-Problems for from BYUCTF 2023
+Problems from BYUCTF 2023
 
 
 
