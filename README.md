@@ -1,15 +1,7 @@
-# Future CTF Problems
-Problems for future BYUCTFs
+# BYUCTF 2023
+Problems for from BYUCTF 2023
 
-## LaygoBlocks
-* [Laygo1](laygo-blocks/laygo1/) - easy (crypto)
-* [Laygo2](laygo-blocks/laygo2/) - easy (web)
-* [Laygo3](laygo-blocks/laygo3/) - easy (web)
-* [Laygo4](laygo-blocks/laygo4/) - medium (forensics)
-* [Laygo5](laygo-blocks/laygo5/) - medium (forensics)
-* [Laygo6](laygo-blocks/laygo6/) - medium (web? CVE)
-* [Laygo7](laygo-blocks/laygo7/) - medium (forensics)
-* [Laygo8](laygo-blocks/laygo8/) - ? (blue team)
+
 
 ## Jail
 * [Leet 1](leet1/) - easy (uploaded)
