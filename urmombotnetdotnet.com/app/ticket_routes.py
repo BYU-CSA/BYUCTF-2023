@@ -59,7 +59,7 @@ def post_create_ticket(session_data):
 def post_add_message(session_data, ticket_id):
     # get user_id from ticket_id
     cur = mysql.connection.cursor()
-    cur.execute("SELECT user_id, message FROM support_tickets WHERE ticket_id=%s", (ticket_id))
+    cur.execute("SELECT user_id, messages FROM Support_Tickets WHERE ticket_id=%s", (ticket_id,))
     response = cur.fetchone()
     cur.close()
 
@@ -82,7 +82,7 @@ def post_add_message(session_data, ticket_id):
     # insert message into database
     cur = mysql.connection.cursor()
     new_message = response[1] + "\n" + message
-    cur.execute("UPDATE Support_Tickets SET message=%s WHERE ticket_id=%s", (new_message, ticket_id))
+    cur.execute("UPDATE Support_Tickets SET messages=%s WHERE ticket_id=%s", (new_message, ticket_id))
     mysql.connection.commit()
     cur.close()
     
